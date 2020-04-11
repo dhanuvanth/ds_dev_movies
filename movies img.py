@@ -33,10 +33,10 @@ def movies(Name):
     driver.close()
 
 
-links = open('movies_name_test.txt', 'r')
+links = open('movies_list.txt', 'r')
 lst = links.read()
 links.close()
 
 movie_txt = lst.split('\n')
-for i in movie_txt:  # each movie_name
+for i in movie_txt[1::2]:  # each movie_name
     movies(i[:-1])

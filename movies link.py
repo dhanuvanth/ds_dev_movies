@@ -33,10 +33,10 @@ for item in soup.findAll('a')[1:]:
 # output.close()
 # out_name.close()
 
-# output = open('movies_list.txt', 'r+')  # read the file
+# output = open('movies_list1.txt', 'r+')  # read the file
 # print(output.read())
 # output.close()
 
-# out_name = open('movies_name.txt', 'r+')  # read the file
+# out_name = open('movies_name1.txt', 'r+')  # read the file
 # print(out_name.read())
 # output.close()
